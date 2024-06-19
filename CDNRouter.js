@@ -1,7 +1,7 @@
 (function() {
     // Authentication logic goes here
     // Example: Check the domain of the requesting website
-    var allowedDomains = ['accomify.com', 'www.accomify.com'];
+    var allowedDomains = ['accomify.com', 'www.accomify.com', 'file:///C:/Users/SeanD/OneDrive/Documents/Accomify/testsite.html'];
     var currentDomain = window.location.hostname;
     
     if (allowedDomains.includes(currentDomain)) {
